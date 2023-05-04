@@ -1,0 +1,8 @@
+streamlit-folium==0.11.1
+pandas==1.5.3
+numpy==1.23.5
+plotly==5.13.0
+folium==0.14.0
+scikit-learn==1.2.1
+langchain==0.0.153
+openai==0.27.5
