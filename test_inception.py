@@ -2,8 +2,8 @@ from tsai.all import *
 import pandas as pd
 import numpy as np
 import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 tst_noise = load_learner('inception_noise')
 tst_test = pd.read_csv('test.csv')
